@@ -22,7 +22,7 @@ public class Authorized {
         body.put("password", password);
 
         Map<String,Object>token=new HashMap<>();
-        token.put("Authorization", "Bearer"+ConfigurationReader.get("token"));
+        token.put("Authorization", "Bearer "+ConfigurationReader.get("token"));
 
         response= RestAssured.given().contentType(ContentType.JSON)
                 .headers(token)
