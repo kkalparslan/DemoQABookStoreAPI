@@ -37,7 +37,6 @@ public class GenerateToken {
         token=response.path("token");
         System.out.println("token = " + token);
     }
-
     public void verifyGenerateStatusCode(){
         response.then().statusCode(200);
     }
