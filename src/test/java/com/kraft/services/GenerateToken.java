@@ -4,10 +4,8 @@ import com.kraft.utilities.ConfigurationReader;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 public class GenerateToken {
 
