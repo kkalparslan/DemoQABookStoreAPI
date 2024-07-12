@@ -17,7 +17,4 @@ public class GenerateTokenStep_Defs {
     public void verify_token_Status_Code() {
         generateToken.verifyGenerateStatusCode();
     }
-
-
-
 }

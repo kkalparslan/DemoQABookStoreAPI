@@ -17,5 +17,4 @@ public class DeleteBookStep_Defs {
     public void user_should_verify_delete_status_code() {
         deleteBook.verifyDelete();
     }
-
 }

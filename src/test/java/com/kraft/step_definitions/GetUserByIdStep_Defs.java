@@ -17,5 +17,4 @@ public class GetUserByIdStep_Defs {
     public void user_should_verify_the_book_status_code() {
         getUserByID.verifyUser();
     }
-
 }
