@@ -9,7 +9,6 @@ public class UpdateBooksStep_Defs {
     @Given("User should update the collection")
     public void user_should_update_the_collection() {
         updateBooks.updateBook();
-
     }
 
     @Then("User should verify the update status code")

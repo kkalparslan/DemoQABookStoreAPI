@@ -10,6 +10,7 @@ public class RegisterStep_Defs {
     public void user_should_register_with_valid_credentials() {
         register.userRegister();
     }
+
     @Then("User should verify status code")
     public void user_should_verify_status_code() {
         register.verifyRegisterStatusCode();
